@@ -1,0 +1,20 @@
+{
+  "bridge_type": "non-binding",
+
+  "external_agent": {
+    "required": true,
+    "must_be_aligned": true,
+    "not_controlled_by_system": true
+  },
+
+  "data_passed": {
+    "descriptor_only": true,
+    "no_system_state": true,
+    "no_expectation": true
+  },
+
+  "system_posture": {
+    "indifferent_to_execution": true,
+    "no_followup_required": true
+  }
+}
